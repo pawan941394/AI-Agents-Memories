@@ -87,4 +87,4 @@ You can adjust the following parameters in `memories.py`:
 
 ---
 
-Created by [Your Name]
+Created by Pawan Kumar
