@@ -3,7 +3,7 @@ from agno.storage.sqlite import SqliteStorage
 
 from agno.models.google import Gemini
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash-exp", api_key='AIzaSyDWUk0f_nYQ2NDUHWKfmDquUbMeCozXs-g'),
+    model=Gemini(id="gemini-2.0-flash-exp", api_key='YOUR_API_KEY_HERE'),
     # Fix the session id to continue the same session across execution cycles
     session_id="fixed_id_for_demo",
     storage=SqliteStorage(table_name="agent_sessions", db_file="tmp/data.db"),
